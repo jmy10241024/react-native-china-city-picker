@@ -3,9 +3,7 @@
 
 
 let cityData = require("../../utils/city.json");
-
- //#region 城市选择初始化
-    initPicker(){
+initPicker(){
         Picker.init({
             pickerTitleText: "选择城市",
             pickerConfirmBtnText: "确定",
@@ -26,5 +24,4 @@ let cityData = require("../../utils/city.json");
             }
         })
         Picker.show();
-    }
-    //#endregion
+  }
