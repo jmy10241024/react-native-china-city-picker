@@ -1,7 +1,7 @@
 # react-native-china-city-picker
 城市选择器json  react-native-picker data 设置此json即可
 
-
+```
 let cityData = require("../../utils/city.json");
 initPicker(){
         Picker.init({
@@ -25,3 +25,4 @@ initPicker(){
         })
         Picker.show();
   }
+```
